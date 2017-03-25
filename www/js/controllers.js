@@ -13,7 +13,7 @@ angular.module('starter.controllers', [])
 	$scope.data=MonmmentService.all();
 	//点赞函数
 	$scope.onFavorClick=function () {
-		console.log(this.value.favourIco);
+		// console.log(this.value.favourIco);
 		favourClick=!favourClick;
 		if (favourClick) {
 			this.value.favour++;
@@ -27,8 +27,8 @@ angular.module('starter.controllers', [])
 	}
 	//点击展开评论列表函数
 	$scope.onCommentShowClick=function (len){
-		console.log(len);
-		console.log($scope.commentNum);
+		// console.log(len);
+		// console.log($scope.commentNum);
 		$scope.commentClick=!$scope.commentClick;
 		if ($scope.commentClick) {
 			$scope.commentNum=len;
