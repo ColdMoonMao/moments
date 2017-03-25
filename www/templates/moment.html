@@ -13,7 +13,7 @@
 				<span class="name">{{userName}}</span>
 				<span class="portrait-container">
 					<img class="portrait" src="../img/portrait.jpg" alt="">
-					<i class="icon ion-record new" ng-show="hasNew"></i>
+					<i class="icon ion-record new" ng-show="hasNew.length > 0"></i>
 				</span>
 			</div>
 		</div>
@@ -38,8 +38,8 @@
 					<!-- 点赞 评论 删除状态区域 -->
 					<div class="state-container">
 						<!-- <img src="../img/state-thumbs-up.svg" alt="" ng-click="onFavorClick()"> -->
-						<i class="icon img {{value.favourIco}}"  ng-click="onFavorClick()"></i><span class="funText">{{value.favour}}
-						</span>
+						<span  ng-click="onFavorClick()"><i class="icon img {{value.favourIco}}"></i><span class="funText">{{value.favour}}
+												</span></span>
 						<img class="img"  src="../img/state-comment.svg" alt=""><span class="funText">评论
 						</span>
 						<span ng-show="{{value.name == userName}}"><img class="img" src="../img/state-delete.svg" alt="" ><span class="funText">删除
