@@ -51,14 +51,14 @@
 					</div>
 					<!-- 评论区 -->
 					<div class="comment-container" ng-if="value.comments != false">
-						<li ng-repeat="comment in value.comments | limitTo:commentNum"><span class="name">{{comment.sender}}</span>: <span class="content">{{comment.content}}</span></li>
+						<li ng-repeat="comment in value.comments | limitTo:value.comShowNum"><span class="name">{{comment.sender}}</span>: <span class="content">{{comment.content}}</span></li>
 					</div>
 					<!-- 评论操作区域 -->
 					<div class="comment-all" ng-init="$scope.viewAllTextMid=value.comments.length" ng-click="onCommentShowClick(value.comments.length)" ng-show="{{value.comments != false && value.comments.length > 3}}">
-						<!-- <span ng-show="commentNum ==3">{{viewAllTextHead+$scope.viewAllTextMid+viewAllTextEnd}}</span> -->
-						<span ng-show="commentNum ==3">查看全部{{$scope.viewAllTextMid}}条评论</span>
-						<span ng-show="commentNum !=3">收起</span>
-						<i class="icon" ng-class="{'ion-ios-arrow-down': commentNum==3,'ion-ios-arrow-up': commentNum!=3}"></i>
+						<!-- <span ng-show="value.comShowNum ==3">{{viewAllTextHead+$scope.viewAllTextMid+viewAllTextEnd}}</span> -->
+						<span ng-show="value.comShowNum ==3">查看全部{{$scope.viewAllTextMid}}条评论</span>
+						<span ng-show="value.comShowNum !=3">收起</span>
+						<i class="icon" ng-class="{'ion-ios-arrow-down': value.comShowNum==3,'ion-ios-arrow-up': value.comShowNum!=3}"></i>
 					</div>
 				</section>
 			</div>

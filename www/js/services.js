@@ -13,6 +13,7 @@ angular.module('starter.services', [])
 			picture: false,
 			favour: 9,
 			favourIco:'ion-ios-heart-outline',
+			comShowNum:3,
 			comments: [{
 				sender: '秋香',
 				receiver: '凌度',
@@ -34,6 +35,7 @@ angular.module('starter.services', [])
 			picture: false,
 			favour: 125,
 			favourIco:'ion-ios-heart-outline',
+			comShowNum:3,
 			comments: [{
 				sender: '星星点灯',
 				receiver: '张小六',
@@ -100,6 +102,7 @@ angular.module('starter.services', [])
 			picture: ["../img/pic1.jpg"],
 			favour: 124,
 			favourIco:'ion-ios-heart-outline',
+			comShowNum:3,
 			comments: [{
 				sender: '星星点灯',
 				receiver: '张小六',
@@ -126,6 +129,7 @@ angular.module('starter.services', [])
 			picture: ["../img/pic1.jpg", "../img/pic2.jpg", "../img/pic3.jpg", "../img/pic4.jpg"],
 			favour: 125,
 			favourIco:'ion-ios-heart-outline',
+			comShowNum:3,
 			comments: [{
 				sender: '星星点灯',
 				receiver: '张小六',
@@ -152,6 +156,7 @@ angular.module('starter.services', [])
 			picture: ["../img/pic1.jpg", "../img/pic2.jpg", "../img/pic3.jpg", "../img/pic4.jpg", "../img/pic5.jpg", "../img/pic6.jpg", "../img/pic7.jpg"],
 			favour: 125,
 			favourIco:'ion-ios-heart-outline',
+			comShowNum:3,
 			comments: false
 		}]
 	return {
