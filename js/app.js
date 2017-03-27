@@ -32,8 +32,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 
     //center:标题居中，left:标题居左，right:标题居右
-    $ionicConfigProvider.platform.ios.navBar.alignTitle('center');
-    $ionicConfigProvider.platform.android.navBar.alignTitle('center');
+    $ionicConfigProvider.navBar.alignTitle('center');
+    // $ionicConfigProvider.platform.ios.navBar.alignTitle('center');
+    // $ionicConfigProvider.platform.android.navBar.alignTitle('center');
 
     //设置返回按钮属性
     $ionicConfigProvider.platform.ios.backButton.previousTitleText('').icon('ion-ios-arrow-thin-left');
