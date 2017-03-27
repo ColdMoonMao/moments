@@ -7,7 +7,7 @@ angular.module('starter.services', [])
 			time: '2017-1-1 08:23',
 			text: '滴滴出行,出行无忧',
 			share: {
-				img: './img/portrait.jpg',
+				img: 'img/portrait.jpg',
 				text: '滴滴出行,从此出行再无忧'
 			},
 			picture: false,
@@ -29,7 +29,7 @@ angular.module('starter.services', [])
 			time: '2017-1-1 08:23',
 			text: false,
 			share: {
-				img: './img/portrait.jpg',
+				img: 'img/portrait.jpg',
 				text: '滴滴,注册司机接单拿奖励,随时随地可接单,赢取高额奖励,轻松赚外快!'
 			},
 			picture: false,
@@ -99,7 +99,7 @@ angular.module('starter.services', [])
 			time: '2017-1-1 08:23',
 			text: '2017年1月，心之向往，我的西藏之行，历时16天，川进青出。',
 			share: false,
-			picture: ["./img/pic1.jpg"],
+			picture: ["img/pic1.jpg"],
 			favour: 124,
 			favourIco:'ion-ios-heart-outline',
 			comShowNum:3,
@@ -126,7 +126,7 @@ angular.module('starter.services', [])
 			time: '2017-1-1 08:23',
 			text: '2017年1月，心之向往，我的西藏之行，历时16天，川进青出。',
 			share: false,
-			picture: ["./img/pic1.jpg", "./img/pic2.jpg", "./img/pic3.jpg", "./img/pic4.jpg"],
+			picture: ["img/pic1.jpg", "img/pic2.jpg", "img/pic3.jpg", "img/pic4.jpg"],
 			favour: 125,
 			favourIco:'ion-ios-heart-outline',
 			comShowNum:3,
@@ -153,7 +153,7 @@ angular.module('starter.services', [])
 			time: '2017-1-1 08:23',
 			text: '2017年1月，心之向往，我的西藏之行，历时16天，川进青出。',
 			share: false,
-			picture: ["./img/pic1.jpg", "./img/pic2.jpg", "./img/pic3.jpg", "./img/pic4.jpg", "./img/pic5.jpg", "./img/pic6.jpg", "./img/pic7.jpg"],
+			picture: ["img/pic1.jpg", "img/pic2.jpg", "img/pic3.jpg", "img/pic4.jpg", "img/pic5.jpg", "img/pic6.jpg", "img/pic7.jpg"],
 			favour: 125,
 			favourIco:'ion-ios-heart-outline',
 			comShowNum:3,
